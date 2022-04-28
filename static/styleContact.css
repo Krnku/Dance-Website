@@ -1,0 +1,60 @@
+/*Below is for importing google fonts from the web */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2&family=Barlow+Condensed:wght@100&family=Cairo:wght@200&family=League+Gothic&family=Poppins:wght@100&family=Rubik+Moonrocks&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2&family=Barlow+Condensed:wght@100&family=Cairo:wght@200&family=League+Gothic&family=PT+Sans+Narrow&family=Poppins:wght@100&family=Rubik+Moonrocks&family=Titillium+Web:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2&family=Barlow+Condensed:wght@100&family=Cairo:wght@200&family=League+Gothic&family=PT+Sans+Narrow&family=Poppins:wght@100&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&family=Titillium+Web:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2&family=Barlow+Condensed:wght@100&family=Cairo:wght@200&family=League+Gothic&family=PT+Sans+Narrow&family=Patrick+Hand&family=Poppins:wght@100&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&family=Titillium+Web:wght@200&display=swap');
+
+/*Below is for CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Below is for changing the background color of the contact section */
+body{
+    background-color: #5c5c86;
+}
+
+/*Below h1 is for the Contact Us*/
+h1{
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Titillium Web';
+    text-align: center;
+    margin: 12px 0;
+}
+/*Below css is for the form targetting the whole form*/
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.myInput{ 
+    font-family: 'Rubik Wet Paint';
+    width: 40%;
+    padding: 13px;
+    margin: 6px;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+.btn{
+    font-family: 'Rubik Wet Paint';
+    padding: 6px 9px;
+    margin: 14px;
+    border-radius: 5px;
+    color: white;
+    background-color: #262654;
+    cursor: pointer;
+    outline: none;
+}
+.container{
+    margin:30px 0;
+    min-height: 72.8vh;
+}

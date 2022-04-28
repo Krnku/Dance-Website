@@ -1,0 +1,53 @@
+//-home.pug is for the home section in the website
+extends base.pug
+
+
+//-Below code is adding external scripts:
+block scripts
+  script(src='../static/index.js')
+
+//-Below code is adding external css files:
+block style 
+     style
+      include ../static/style.css
+
+//-Below code is for the welcome(intro) ,mission & sponsers sections respectively:
+
+block content 
+    section#introSection
+            div Welcome to Krnku's Dance Academy
+            div.small Dance with your body & soul
+
+    section#MissionSection
+            h2 Our Mission 
+            div.cards
+                h3 Dance with perfection 
+                div.card-box 
+                  div.card1-img
+                    img(src="static/img/1.jpg")
+                  div.card-content
+                   p KDA is one of the best out here.
+            div.cards
+                h3 Dance with your own way of perfection 
+                div.card-box 
+                  div.card2-img
+                    img(src="static/img/2.jpg")
+                  div.card-content
+                   p KDA is one of the best out here.
+            div.cards
+                h3 Expert teaching
+                div.card-box 
+                  div.card3-img
+                    img(src="static/img/3.jpg")
+                  div.card-content
+                   p KDA is one of the best out here.
+            
+    section#SponserSection
+            h2 Our Sponsers
+            div#sponsers
+              img(src="static/img/logo4.png", alt="Sponser-Image",Class="spImage")
+              img(src="static/img/logo2.png", alt="Sponser-Image",Class="spImage")
+              img(src="static/img/logo1.png", alt="Sponser-Image",Class="spImage")
+              img(src="static/img/logo3.png", alt="Sponser-Image",Class="spImage")
+     
+    

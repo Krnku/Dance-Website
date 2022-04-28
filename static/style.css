@@ -1,0 +1,225 @@
+/*Below is for importing google fonts from the web */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2&family=Barlow+Condensed:wght@100&family=Cairo:wght@200&family=League+Gothic&family=Poppins:wght@100&family=Rubik+Moonrocks&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2&family=Barlow+Condensed:wght@100&family=Cairo:wght@200&family=League+Gothic&family=PT+Sans+Narrow&family=Poppins:wght@100&family=Rubik+Moonrocks&family=Titillium+Web:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2&family=Barlow+Condensed:wght@100&family=Cairo:wght@200&family=League+Gothic&family=PT+Sans+Narrow&family=Poppins:wght@100&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&family=Titillium+Web:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2&family=Barlow+Condensed:wght@100&family=Cairo:wght@200&family=League+Gothic&family=PT+Sans+Narrow&family=Patrick+Hand&family=Poppins:wght@100&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&family=Titillium+Web:wght@200&display=swap');
+
+/*Below is for CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Logo's section */
+
+#logo {
+    display: flex;
+    margin: 0 14px;
+    font-size: 17px;
+    font-family: 'Rubik Wet Paint';
+    color: white;
+    align-items: center;
+    margin-right: 40px;
+}
+
+
+#logo img {
+    border-radius: 18px;
+    border: 2px solid #b3b3d4;
+    
+    filter: invert(1);
+    height: 40px;
+}
+
+
+/*Navigation bar's section */
+
+#navbar {
+    background-color: #262654;
+    
+    padding: 20px 2px;
+    font-family: 'Rubik Moonrocks';
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    font-size: 25px;
+    color: white;
+    padding: 13px 34px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: black;
+
+}
+
+/*Intro section's section */
+
+#introSection {
+    padding-bottom: 74px;
+    font-family: 'Titillium Web';
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: center/cover no-repeat url('/static/bg2.jpg');
+    height: 300px;
+    background-color: green;
+}
+
+#introSection div.small {
+    padding: 6px;
+    font-size: 1.4rem;
+}
+
+/*Mission section's section */
+
+#MissionSection {
+    margin: auto;
+    width: 100%;
+    display: block;
+    height: 330px;
+    background-color: rgb(177 158 158);
+}
+
+#MissionSection h2 {
+    font-size: 30px;
+    color: rgb(147 111 111);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Rubik Wet Paint';
+    padding-top: 30px;
+}
+
+.cards h3 {
+    text-align: center;
+    margin: 12px;
+    color: rgb(232, 215, 215);
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-content p {
+    color: rgb(232, 215, 215);
+    font-size: 19px;
+    font-family: 'Rubik Wet Paint';
+}
+
+.card1-img {
+    padding: 0 14px;
+    height: 130px;
+    margin: 2px 32px;
+}
+
+.card1-img img {
+    border-radius: 12px;
+    border: 2px solid rgb(177 158 158);
+    height: inherit;
+
+}
+
+.card2-img {
+    padding: 0 14px;
+    height: 130px;
+    margin: 2px 32px;
+}
+
+.card2-img img {
+    border-radius: 12px;
+    border: 2px solid rgb(177 158 158);
+    height: inherit;
+
+}
+
+.card3-img {
+    padding: 0 14px;
+    height: 130px;
+    margin: 2px 14px;
+}
+
+.card3-img img {
+    border-radius: 12px;
+    border: 2px solid rgb(177 158 158);
+    height: inherit;
+
+}
+
+.cards {
+    background-color: rgb(152 120 120);
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 29%;
+    margin: 20px 22px;
+    height: 191px;
+}
+
+/*Sponsers section's section */
+
+#sponsers {
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage {
+    height: 100px;
+    margin: 65px;
+}
+
+#SponserSection {
+    height: 290px;
+    background-color: #444475bb;
+    ;
+
+}
+
+#SponserSection h2 {
+    font-size: 30px;
+    color: rgb(216, 209, 209);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Rubik Wet Paint';
+    padding-top: 56px;
+}
+
+#footer {
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Patrick Hand';
+
+}
+
+div.small{
+    font-style: italic;
+}
+div.card-content p{
+    font-style: italic;
+}
